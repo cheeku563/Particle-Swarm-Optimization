@@ -1,6 +1,6 @@
 # Particle-Swarm-Optimization : State of the art
 
- [Particle swarm optimiation](https://jamesmccaffrey.wordpress.com/2015/06/09/particle-swarm-optimization- using-python)
+ [pso](https://jamesmccaffrey.wordpress.com/2015/06/09/particle-swarm-optimization- using-python)
 
 * A basic variant of the PSO algorithm works by having a population (called a
    swarm) of candidate solutions (called particles).
@@ -21,6 +21,12 @@
  ```
  saiky.m
  ```
+ The following is the command in python
+ ```
+ python case2.py
+ ```
+ no constraint case is executed by running nocon.py file
+ 
    * The python implementation is done for optimization of ɸ(𝑥1,𝑥2) with 𝜓(𝑥1,𝑥2) and H(x1,x2) as constraints. 
   The following is the command for the pso optimization in python for 2 constraints.
   ```
